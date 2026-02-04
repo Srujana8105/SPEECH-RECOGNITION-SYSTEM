@@ -14,58 +14,36 @@ Mentor: Neela Santhosh
 
 # Speech Recognition System using NLP
 
-## Project Overview
-This project implements a Speech Recognition System using Python and Natural Language Processing (NLP) techniques. The system captures voice input through a microphone and converts spoken language into readable text.
-
-This project demonstrates how machines can understand and process human speech using NLP-based speech recognition models.
-
----
+## Overview
+This project implements a Speech Recognition System in Python using Natural Language Processing techniques. It captures voice input from a microphone and converts spoken words into text.
 
 ## Objective
-- To capture speech input using a microphone
-- To convert spoken words into text
-- To understand the working of speech recognition systems
-- To apply NLP techniques for speech processing
+- Capture speech through a microphone
+- Convert speech into readable text
+- Understand the basics of speech recognition using NLP
 
----
-
-## NLP Concepts Used
-The following NLP-related concepts are used in this project:
-
-- Speech Processing
-- Language Modeling
-- Audio-to-Text Conversion
-- Error Handling for unclear speech and network issues
-
----
-
-## Tools and Libraries
+## Tools Used
 - Python
 - SpeechRecognition library
-- PyAudio (for microphone access)
+- PyAudio
+- Google Speech Recognition API
 
----
+## How It Works
+The system records audio using the microphone, processes it through the SpeechRecognition library, sends it to the recognition engine, and displays the converted text.
 
-## How the System Works
-1. The microphone captures the audio input.
-2. PyAudio provides access to the microphone hardware.
-3. The SpeechRecognition library processes the recorded audio.
-4. The audio is sent to a speech recognition engine (Google API).
-5. The spoken words are converted into text and displayed.
-
----
-
-## How to Run the Project
-
-## Install Dependencies
+## How to Run
 ```bash
 pip install SpeechRecognition
 pip install pipwin
 pipwin install pyaudio
 
----
 
 ## Output
 
-[SpeechRecognition.ipynb](https://github.com/user-attachments/files/25064421/SpeechRecognition.ipynb)
+The complete working implementation and output of the project can be viewed in the Jupyter Notebook below:
+
+[SpeechRecognition.ipynb](./SpeechRecognition.ipynb)
+
+
+
 
