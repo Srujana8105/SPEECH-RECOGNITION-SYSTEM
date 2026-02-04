@@ -57,12 +57,13 @@ The following NLP-related concepts are used in this project:
 
 ## How to Run the Project
 
-### Install Dependencies
+## Install Dependencies
 ```bash
 pip install SpeechRecognition
 pip install pipwin
 pipwin install pyaudio
 
+---
 
 ## Output
 
