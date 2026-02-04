@@ -27,6 +27,11 @@ This project implements a Speech Recognition System in Python using Natural Lang
 - SpeechRecognition library
 - PyAudio
 - Google Speech Recognition API
+  
+## Output
+
+The complete working implementation and output of the project can be viewed in the Jupyter Notebook below:
+<img width="863" height="74" alt="Image" src="https://github.com/user-attachments/assets/f5653212-dc6a-473c-b015-ab4d373bbe5b" />
 
 ## How It Works
 The system records audio using the microphone, processes it through the SpeechRecognition library, sends it to the recognition engine, and displays the converted text.
@@ -38,11 +43,8 @@ pip install pipwin
 pipwin install pyaudio
 
 
-## Output
 
-The complete working implementation and output of the project can be viewed in the Jupyter Notebook below:
 
-[SpeechRecognition.ipynb](./SpeechRecognition.ipynb)
 
 
 
