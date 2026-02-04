@@ -62,3 +62,10 @@ The following NLP-related concepts are used in this project:
 pip install SpeechRecognition
 pip install pipwin
 pipwin install pyaudio
+
+
+## Output
+
+
+[SpeechRecognition.ipynb](https://github.com/user-attachments/files/25064308/SpeechRecognition.ipynb)
+
